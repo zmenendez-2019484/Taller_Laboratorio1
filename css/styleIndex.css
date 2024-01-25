@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: white;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.item-nav {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*main*/
+
+
+/*container fuvol*/
+.content-fuvol {
+    font-size: 25px;
+    text-align: justify;
+    padding: 12px;
+}
+
+.container-fuvol {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 120px;
+    width: 110px;
+
+}
+
+.fuvol {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fuvol {
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/*container idolo*/
+
+.idol {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-idol {
+    margin: 10px;
+
+}
+
+.img-idol {
+    margin: 10px;
+}
+
+
+/*container music*/
+
+.music {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.food {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+}
