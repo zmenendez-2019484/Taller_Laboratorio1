@@ -20,7 +20,7 @@ body {
     background-color: #000;
     color: white;
     margin-bottom: 20px;
-    
+
 }
 
 .nav-header {
@@ -52,7 +52,7 @@ body {
     font-size: 25px;
     text-align: justify;
     padding: 12px;
-   
+
 }
 
 .container-fuvol {
@@ -115,6 +115,7 @@ img {
     align-items: center;
     height: 700px;
 }
+
 .img-idol img {
     height: 370px;
     width: 400px;
@@ -128,13 +129,14 @@ img {
     justify-content: space-around;
     margin-bottom: 20px;
 }
-.content-music{
+
+.content-music {
     font-size: 25px;
     text-align: justify;
     padding: 15px;
 }
 
-.music{
+.music {
     width: 500px;
     height: 450px;
     border: 1px solid black;
@@ -143,12 +145,12 @@ img {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    border-radius: 2px 4px 2px; 
+    border-radius: 2px 4px 2px;
     background-color: white;
 }
 
 /*container favorite*/
-.favorite-artist{
+.favorite-artist {
     width: 500px;
     height: 450px;
     border: 1px solid black;
@@ -158,17 +160,17 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 2px 4px 2px;
-    background-color: white; 
+    background-color: white;
 
 }
 
-.h2-favorite-artist{
+.h2-favorite-artist {
     margin: 10px;
     font-size: 20px;
 
 }
 
-.img-favorite-artist{
+.img-favorite-artist {
     margin: 8px;
     display: flex;
     justify-content: center;
@@ -177,7 +179,7 @@ img {
     height: 700px;
 }
 
-.img-favorite-artist img{
+.img-favorite-artist img {
     height: 370px;
     width: 400px;
 
