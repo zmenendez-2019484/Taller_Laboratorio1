@@ -44,12 +44,21 @@ img{
 .container-kinal {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     height: 100px; /* Ajusta según tus necesidades, para centrar verticalmente también */
 }
 
 .container-kinal-p {
     max-width: 600px; /* Ajusta según tus necesidades */
     text-align: center;
+}
+
+
+.container-somoskinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px; /* Ajusta según tus necesidades, para centrar verticalmente también */
 }
 
