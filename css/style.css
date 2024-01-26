@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #707070;
 }
 
 /* header */
@@ -18,6 +19,8 @@ body {
     height: 90px;
     background-color: #000;
     color: white;
+    margin-bottom: 20px;
+    
 }
 
 .nav-header {
@@ -49,16 +52,18 @@ body {
     font-size: 25px;
     text-align: justify;
     padding: 12px;
+   
 }
 
 .container-fuvol {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 img {
-    height: 120px;
-    width: 110px;
+    height: 130px;
+    width: 115px;
 
 }
 
@@ -71,6 +76,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2px 4px 2px;
+    background-color: white;
 }
 
 .img-fuvol {
@@ -89,8 +96,9 @@ img {
     margin: auto;
     display: flex;
     flex-direction: column;
- 
+    border-radius: 2px 4px 2px;
     align-items: center;
+    background-color: white;
 }
 
 .h2-idol {
@@ -108,19 +116,73 @@ img {
     height: 700px;
 }
 .img-idol img {
-    height: 300px;
-    width: 300px;
+    height: 370px;
+    width: 400px;
 }
 
 
 /*container music*/
 
-.music {
-    width: 100px;
-    height: 100px;
+.container-music {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.content-music{
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.music{
+    width: 500px;
+    height: 450px;
     border: 1px solid black;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 2px 4px 2px; 
+    background-color: white;
 }
+
+/*container favorite*/
+.favorite-artist{
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px 4px 2px;
+    background-color: white; 
+
+}
+
+.h2-favorite-artist{
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.img-favorite-artist{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 700px;
+}
+
+.img-favorite-artist img{
+    height: 370px;
+    width: 400px;
+
+}
+
 
 .food {
     width: 100px;
