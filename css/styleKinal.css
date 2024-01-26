@@ -35,7 +35,8 @@
     text-decoration: none;
     color: white;
 }
-img{
+
+img {
     width: 190px;
     height: 80px;
 }
@@ -45,20 +46,48 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Ajusta según tus necesidades, para centrar verticalmente también */
+    height: 100px;
+    /* Ajusta según tus necesidades, para centrar verticalmente también */
 }
 
 .container-kinal-p {
-    max-width: 600px; /* Ajusta según tus necesidades */
+    max-width: 600px;
+    /* Ajusta según tus necesidades */
     text-align: center;
 }
 
-
-.container-somoskinal{
+.container-somoskinal {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 800px;
-    height: 200px; /* Ajusta según tus necesidades, para centrar verticalmente también */
+    width: 100%;
+
+    margin: 20px;
+}
+
+
+.vision,
+.mision,
+.valores {
+    text-align: center;
+    width: 280px;
+}
+
+.title-vision,
+.tittle-mision,
+.tittle-valores {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.content-mision,
+.content-vision,
+.content-valores {
+    text-align: justify;
+}
+
+.content-valores ul {
+    list-style-position: inside;
 }
 
