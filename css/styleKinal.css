@@ -36,10 +36,7 @@
     color: white;
 }
 
-img {
-    width: 190px;
-    height: 80px;
-}
+
 
 /*main*/
 .container-kinal {
@@ -60,8 +57,6 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-
     margin: 20px;
 }
 
@@ -91,3 +86,33 @@ img {
     list-style-position: inside;
 }
 
+.container-grado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-ciclo-basico,
+.container-ciclo-diversificado,
+.container-escuela-tecnica {
+    text-align: center;
+    width: 270px;
+}
+
+.img-ciclo-basico img,
+.img-ciclo-diversificado img,
+.img-escuela-tecnica img {
+    max-width: 100%;
+    /* Hace que las imágenes se ajusten al ancho del contenedor */
+    height: auto;
+    /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilos adicionales para mejorar la presentación, puedes ajustar según tus preferencias */
+.content-ciclo-basico,
+.content-ciclo-diversificado,
+.container-escuela-tecnica div {
+    margin-top: 10px;
+    /* Añade espacio entre la imagen y el texto */
+}
