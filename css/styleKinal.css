@@ -119,7 +119,7 @@
     /* Añade espacio entre la imagen y el texto */
 }
 
-.patrocinadores{
+.patrocinadores {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +127,7 @@
     /* Ajusta según tus necesidades, para centrar verticalmente también */
 }
 
-.content-patrocinadores{
+.content-patrocinadores {
     max-width: 600px;
     /* Ajusta según tus necesidades */
     text-align: center;
@@ -153,7 +153,8 @@
 
 .img-sponsors img {
     max-width: 100%;
-    margin-top: 10px; /* Ajusta según el espacio deseado entre las imágenes */
+    margin-top: 10px;
+    /* Ajusta según el espacio deseado entre las imágenes */
 
 }
 
@@ -175,5 +176,57 @@
 
 .img-partners img {
     max-width: 100%;
-    margin-top: 10px; /* Ajusta según el espacio deseado entre las imágenes */
+    margin-top: 10px;
+    /* Ajusta según el espacio deseado entre las imágenes */
+}
+
+
+/*footer*/
+footer {
+    background-color:blue;
+    color: white;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.footer-contact,
+.footer-logo,
+.footer-info {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.footer-contact h1 {
+    font-size: 1.5em; /* Ajusta según tus preferencias */
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
