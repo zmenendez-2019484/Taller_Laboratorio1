@@ -1,6 +1,6 @@
 // Redirige a otra página
 function redirectToInicio() {
-    window.location.href = '../index.html';
+    window.location.href = '../../index.html';
 }
 
 // Llama a la función cuando sea necesario, por ejemplo, en respuesta a un evento clic
